@@ -2,7 +2,7 @@
 import random
 def Busqueda_Binaria(lista, Comienzo, Final, Objetivo,con):
     con=1+con
-    print(f'buscando{Objetivo} entre {lista[Comienzo]} y {lista[Final-1]} cuntos pasos{con}')
+    print(f'buscando{Objetivo} entre {lista[Comienzo]} y {lista[Final-1]} cuntos pasos {con}')
     if Comienzo> Final:
         return False
     medio =(Comienzo+Final)//2
