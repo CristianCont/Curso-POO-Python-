@@ -1,0 +1,9 @@
+mkdir graficado
+cd graficado/
+python -m venv env // creacion ambiente virtual 
+
+env\Scripts\activate.bat // activar abiente virtual 
+pip install bokeh // instalar cualquier libreria 
+pip freeze // ver lo que esta istalado en el ambiente 
+
+deactivate // salir del ambiente virtual 
